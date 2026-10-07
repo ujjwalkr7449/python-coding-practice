@@ -24,3 +24,12 @@ city = input("Enter your city: ")
 print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"City: {city}")
+
+
+a = 10
+b = 20
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
