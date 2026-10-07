@@ -42,9 +42,14 @@ print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
 
-
+#1. Area of circle
 radius = float(input("Enter radius: "))
 
 area = 3.14159 * radius * radius
 
 print("Area of circle:", area)
+celsius = float(input("Enter temperature in Celsius: "))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print("Temperature in Fahrenheit:", fahrenheit)
