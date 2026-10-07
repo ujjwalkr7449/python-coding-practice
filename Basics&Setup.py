@@ -76,3 +76,13 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+
+#5. Find the maximum of two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print("Maximum:", a)
+else:
+    print("Maximum:", b)
