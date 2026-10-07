@@ -33,3 +33,18 @@ a, b = b, a
 
 print("a =", a)
 print("b =", b)
+
+a = 10
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+
+radius = float(input("Enter radius: "))
+
+area = 3.14159 * radius * radius
+
+print("Area of circle:", area)
