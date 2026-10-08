@@ -53,3 +53,5 @@ if is_prime(num):
     print("Prime")
 else:
     print("Not Prime")
+
+#6. Calculator using functions
