@@ -33,3 +33,23 @@ def factorial(n):
 num = int(input("Enter number: "))
 
 print("Factorial:", factorial(num))
+
+#Prime no. function
+def is_prime(num):
+
+    if num < 2:
+        return False
+
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+
+    return True
+
+
+num = int(input("Enter number: "))
+
+if is_prime(num):
+    print("Prime")
+else:
+    print("Not Prime")
