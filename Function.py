@@ -12,3 +12,10 @@ def greet(name):
 greet("Ujjwal")
 
 #3. Function with return
+def add(a, b):
+    return a + b
+
+
+result = add(10, 20)
+
+print(result)
