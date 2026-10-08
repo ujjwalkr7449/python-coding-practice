@@ -10,3 +10,5 @@ def greet(name):
 
 
 greet("Ujjwal")
+
+#3. Function with return
