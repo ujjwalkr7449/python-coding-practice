@@ -22,6 +22,7 @@ print(numbers[::-1])
 #Sum of list
 numbers = [10, 20, 30, 40, 50]
 
+#sum of list
 total = 0
 
 for num in numbers:
