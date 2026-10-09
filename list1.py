@@ -29,3 +29,12 @@ for num in numbers:
     total += num
 
 print("Sum:", total)
+
+#6. User input list
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+print(numbers)
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+print("Sum:", sum(numbers))
+
