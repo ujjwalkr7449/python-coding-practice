@@ -18,3 +18,13 @@ print("Minimum:", min(numbers))
 numbers = [10, 20, 30, 40, 50]
 
 print(numbers[::-1])
+
+#Sum of list
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for num in numbers:
+    total += num
+
+print("Sum:", total)
