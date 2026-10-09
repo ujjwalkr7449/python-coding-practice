@@ -13,3 +13,8 @@ numbers = [10, 50, 20, 80, 30]
 
 print("Maximum:", max(numbers))
 print("Minimum:", min(numbers))
+
+
+numbers = [10, 20, 30, 40, 50]
+
+print(numbers[::-1])
