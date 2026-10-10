@@ -9,3 +9,8 @@ with open("user.txt", "r") as file:
     data = file.read()
 
 print(data)
+
+#3. Append to file
+with open("user.txt", "a") as file:
+    file.write("Country: India\n")
+    
