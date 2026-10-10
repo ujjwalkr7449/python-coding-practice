@@ -113,3 +113,9 @@ for num in numbers:
     frequency[num] = frequency.get(num, 0) + 1
 
 print(frequency)
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+result = list(set(numbers))
+
+print(result)
