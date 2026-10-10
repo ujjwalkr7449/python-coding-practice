@@ -39,3 +39,17 @@ for num in numbers:
         frequency[num] = 1
 
 print(frequency)
+
+
+#Simple phone book
+phone_book = {}
+
+phone_book["Ujjwal"] = "9876543210"
+phone_book["Rahul"] = "9876500000"
+
+name = input("Enter name: ")
+
+if name in phone_book:
+    print("Phone:", phone_book[name])
+else:
+    print("Contact not found")
