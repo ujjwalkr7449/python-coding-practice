@@ -19,3 +19,9 @@ except ValueError:
     print("Please enter a valid number")
     
 #3. File not found
+try:
+    with open("data.txt", "r") as file:
+        print(file.read())
+
+except FileNotFoundError:
+    print("File not found")
