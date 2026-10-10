@@ -48,3 +48,18 @@ reverse = text[::-1]
 
 print("Reverse:", reverse)
 
+#5. Character frequency
+text = input("Enter string: ")
+
+frequency = {}
+
+for char in text:
+
+    if char in frequency:
+        frequency[char] += 1
+    else:
+        frequency[char] = 1
+
+print(frequency)
+
+
