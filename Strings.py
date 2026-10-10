@@ -33,3 +33,10 @@ for char in text.lower():
         count += 1
 
 print("Vowels:", count)
+
+#4. Reverse string
+text = input("Enter string: ")
+
+reverse = text[::-1]
+
+print("Reverse:", reverse)
