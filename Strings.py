@@ -40,3 +40,11 @@ text = input("Enter string: ")
 reverse = text[::-1]
 
 print("Reverse:", reverse)
+
+#4. Reverse string
+text = input("Enter string: ")
+
+reverse = text[::-1]
+
+print("Reverse:", reverse)
+
