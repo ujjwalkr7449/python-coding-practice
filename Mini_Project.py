@@ -129,3 +129,13 @@ for num in numbers:
     frequency[num] = frequency.get(num, 0) + 1
 
 print(frequency)
+
+
+#Problem 5 — Palindrome
+
+text = "madam"
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
