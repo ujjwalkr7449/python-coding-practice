@@ -22,3 +22,4 @@ else:
     print("Not Palindrome")
     
 
+#3. Count vowels
