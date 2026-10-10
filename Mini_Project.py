@@ -97,3 +97,19 @@ unique_numbers = list(set(numbers))
 unique_numbers.sort()
 
 print("Second largest:", unique_numbers[-2])
+#Problem 3 — Remove duplicates
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+result = list(set(numbers))
+
+print(result)
+
+
+numbers = [1, 2, 2, 3, 3, 3]
+
+frequency = {}
+
+for num in numbers:
+    frequency[num] = frequency.get(num, 0) + 1
+
+print(frequency)
