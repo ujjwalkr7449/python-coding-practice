@@ -23,3 +23,13 @@ else:
     
 
 #3. Count vowels
+text = input("Enter string: ")
+
+count = 0
+
+for char in text.lower():
+
+    if char in "aeiou":
+        count += 1
+
+print("Vowels:", count)
